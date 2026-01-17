@@ -1,4 +1,4 @@
-# Odin Memory Card (Fortnite Edition) — Next.js
+# Memory Cards Game (Fortnite Edition) — Next.js
 
 A Fortnite-themed memory card game built with **Next.js**. This project was originally a React app and has been **successfully migrated from React to Next.js** for a cleaner structure, improved routing, and an easier path to server-side integrations (e.g., Supabase, API routes, caching).
 
