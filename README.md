@@ -1,24 +1,46 @@
-# << APP NAME >>
+# Odin Memory Card (Fortnite Edition) — Next.js
 
-> Developed by [YOUR NAMES]() for COMP 426: Modern Web Programming at UNC-Chapel Hill.
+A Fortnite-themed memory card game built with **Next.js**. This project was originally a React app and has been **successfully migrated from React to Next.js** for a cleaner structure, improved routing, and an easier path to server-side integrations (e.g., Supabase, API routes, caching).
 
+## Demo
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=typescript)
-![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=nextdotjs)
-![Shadcn/ui](https://img.shields.io/badge/-Shadcn_UI-05122A?style=flat&logo=shadcnui)
-![Tailwind](https://img.shields.io/badge/-Tailwind-05122A?style=flat&logo=tailwindcss)
-![Supabase](https://img.shields.io/badge/-Supabase-05122A?style=flat&logo=supabase)
-![Drizzle](https://img.shields.io/badge/-Drizzle-05122A?style=flat&logo=drizzle)
-![tRPC](https://img.shields.io/badge/-tRPC-05122A?style=flat&logo=trpc)
+- Live: odin-memory-card-swart.vercel.app/
 
-*Add some screenshots or graphics here that show your app being used!*
+---
 
-*Include a short description of your app here.*
+<img src="./MenuDemo.png">
+<img src="./GameDemo.png">
+<img src="./WinDemo.png">
 
 ## Features
 
-*Describe the features of your app here.*
+- Memory-card gameplay (flip, match, reset)
+- Animated UI feedback (confetti, motion)
+- Fetches Fortnite cosmetic/card data (API-based)
+- Responsive layout
 
-## ...
+---
 
-Feel free to add other sections as you see fit!
+## Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **UI:** React
+- **Animation:** Framer Motion
+- **Data Fetching:** Axios
+- **Effects:** canvas-confetti and snow overlay
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm (or pnpm/yarn/bun if you prefer)
+
+### Install
+
+```bash
+npm install
+```
