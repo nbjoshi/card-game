@@ -1,28 +1,24 @@
-/**
- * The _app component is the top-level component wrapping all pages
- * in the application.
- *
- * @author Ajay Gandecha <agandecha@unc.edu>
- * @license MIT
- * @see https://comp426-25f.github.io/
- */
-
-import { ThemeProvider } from "@/components/theme/theme-provider";
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { api } from "@/utils/trpc/api";
+import { GameProvider } from "./context/GameContext";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-function App({ Component, pageProps }: AppProps) {
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+    },
+  },
+});
+
+export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider
-      attribute="class"
-      defaultTheme="auto"
-      enableSystem
-      disableTransitionOnChange
-    >
-      <Component {...pageProps} />
-    </ThemeProvider>
+    <QueryClientProvider client={queryClient}>
+      <GameProvider>
+        <Component {...pageProps} />
+      </GameProvider>
+    </QueryClientProvider>
   );
 }
 
-export default api.withTRPC(App);
+// export default api.withTRPC(App);

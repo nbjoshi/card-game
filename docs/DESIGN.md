@@ -1,22 +1,10 @@
 # Design Document
 
-> Written by: <YOUR NAMES> for COMP 426: Modern Web Programming at UNC-Chapel Hill.
-
 ## Feature Plan
 
-*Replace this with your feature plan. Write a bit more detail under each heading from before (description, user, purpose). Also, add a fourth section to each with some technical notes on how you may implement each feature and any other backend or frontend notes you may need.*
+_Replace this with your feature plan. Write a bit more detail under each heading from before (description, user, purpose). Also, add a fourth section to each with some technical notes on how you may implement each feature and any other backend or frontend notes you may need._
 
-### Feature 1: ___
-
-**Description:**
-
-**User(s):**
-
-**Purpose:**
-
-**Technical Notes:**
-
-### Feature 2: ___
+### Feature 1: \_\_\_
 
 **Description:**
 
@@ -26,7 +14,7 @@
 
 **Technical Notes:**
 
-### Feature 3: ___
+### Feature 2: \_\_\_
 
 **Description:**
 
@@ -36,7 +24,7 @@
 
 **Technical Notes:**
 
-### Feature 4: ___
+### Feature 3: \_\_\_
 
 **Description:**
 
@@ -46,7 +34,7 @@
 
 **Technical Notes:**
 
-### Feature 5: ___
+### Feature 4: \_\_\_
 
 **Description:**
 
@@ -56,12 +44,18 @@
 
 **Technical Notes:**
 
-*Feel free to add more here if needed.*
+### Feature 5: \_\_\_
+
+**Description:**
+
+**User(s):**
+
+**Purpose:**
+
+**Technical Notes:**
+
+_Feel free to add more here if needed._
 
 ## Backend Database Schema
 
-*Replace this with a photo or PDF link of your backend database schema. Please add a short description for important design considerations.
-
-## High-Fidelity Prototype
-
-*Replace this with an embedded Figma project here.*
+\*Replace this with a photo or PDF link of your backend database schema. Please add a short description for important design considerations.
